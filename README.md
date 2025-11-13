@@ -1,6 +1,6 @@
 # Predicting Delivery Delays with Machine Learning
 
-![Delivery Delay Header](/images/delivery%20delay%20header.png)
+![Delivery Delay Header](/images/delivery delay header.png)
 
 ## Project Overview
 
@@ -16,7 +16,7 @@ My analysis aims at answering the following questions:
 
 This analysis uses the [Olist Brazilian E-commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), which originally comprises nine relational tables covering orders, customers, products, sellers, payments, and reviews. For efficient exploration and modeling, these tables were cleaned, merged, and transformed in a [previous data-pipeline project](/projects/ecommerce_data_pipeline/), resulting in three Analytical Base Tables (ABTs) focusing on orders, customers, and products. This project focuses on the order-level dataset.
 
-![ERD Customer Analysis](/images/Fig.%201.%20ERD%20customer%20analysis.png)
+![ERD Customer Analysis](/images/Fig. 1. ERD customer analysis.png)
 
 *PK: Primary Key; FK: Foreign Key.*
 
@@ -57,7 +57,7 @@ I used a **Gradient Boosting approach (XGBoost)** for predicting delivery delays
 **Data Splitting:**  
 The dataset of 95,936 orders was divided into training, validation, and test subsets to train, tune, and evaluate the model respectively.
 
-![Data Splitting](/images/delivery%20delay%20data%20splitting.png)
+![Data Splitting](/images/delivery delay data splitting.png)
 
 **Hyper parameter tuning:**  
 Initially, early stopping was applied to identify the optimal number of boosting rounds and mitigate overfitting. Second, a randomized search was conducted to optimize key hyperparameters of the XGBoost model, further improving predictive performance and generalization.
@@ -70,19 +70,19 @@ In spite of this strong overall performance, the model faced a challenge due to 
 
 ## Feature Importance & Insights
 
-![Feature Importance](/images/delivery%20delay%20feature%20importance.png)
+![Feature Importance](/images/delivery delay feature importance.png)
 
 The model identified the seller's handling speed as the strongest predictor of delivery delays (an intuitive result). Although not directly controllable, the company could prioritize or incentivize sellers with faster processing times.
 
 ### Temporal Patterns
 
-![Temporal Effect](/images/delivery%20delay%20time%20effect.png)
+![Temporal Effect](/images/delivery delay time effect.png)
 
 Temporal dynamics played a significant role in predicting delivery delays. In Olist's early development phase (2016), deliveries were generally faster, but delays increased as the company scaled. Seasonality also emerged: delays peaked in **March** and **November**, while **June** showed the most on-time deliveries. Additionally, orders placed on **Fridays** tended to experience slightly longer delays.
 
 ### Geographic Distance
 
-![Distance Effect](/images/delivery%20delay%20distance%20effect.png)
+![Distance Effect](/images/delivery delay distance effect.png)
 
 Delivery delays tend to increase with distance. While this is an intuitive pattern, it highlights an issue in the delivery date estimation process, which appears to insufficiently account for distance.
 
