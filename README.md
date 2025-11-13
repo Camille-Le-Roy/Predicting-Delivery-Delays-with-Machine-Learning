@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-Delivery delays are a major driver of customer dissatisfaction, often resulting in negative reviews and, ultimately, churn. In a [previous project](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) analyzing customer behavior using the Olist e-commerce dataset, I identified logistics issues impacting the customer experience. Here, I address those issues by building a machine learning model, powered by XGBoost, to predict delivery delays and help logistics teams reducing late shipments.
+Delivery delays are a major driver of customer dissatisfaction, often resulting in negative reviews and, ultimately, churn. In a [previous project](https://github.com/Camille-Le-Roy/E-Commerce-Data-Processing-Pipeline) analyzing customer behavior using the Olist e-commerce dataset, I identified logistics issues impacting the customer experience. Here, I address those issues by building a machine learning model, powered by XGBoost, to predict delivery delays and help logistics teams reducing late shipments.
 
 My analysis aims at answering the following questions:
 
