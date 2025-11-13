@@ -72,7 +72,9 @@ In spite of this strong overall performance, the model faced a challenge due to 
 
 ## Feature Importance & Insights
 
-![Feature Importance](/images/delivery_delay_feature_importance.png)
+<p align="center">
+  <img src="images/delivery_delay_feature_importance" width="70%">
+</p>
 
 The model identified the seller's handling speed as the strongest predictor of delivery delays (an intuitive result). Although not directly controllable, the company could prioritize or incentivize sellers with faster processing times.
 
@@ -84,7 +86,9 @@ Temporal dynamics played a significant role in predicting delivery delays. In Ol
 
 ### Geographic Distance
 
-![Distance Effect](/images/delivery_delay_distance_effect.png)
+<p align="center">
+  <img src="images/delivery_delay_distance_effect" width="70%">
+</p>
 
 Delivery delays tend to increase with distance. While this is an intuitive pattern, it highlights an issue in the delivery date estimation process, which appears to insufficiently account for distance.
 
