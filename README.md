@@ -59,7 +59,9 @@ I used a **Gradient Boosting approach (XGBoost)** for predicting delivery delays
 **Data Splitting:**  
 The dataset of 95,936 orders was divided into training, validation, and test subsets to train, tune, and evaluate the model respectively.
 
-![Data Splitting](/images/delivery_delay_data_splitting.png)
+<p align="center">
+  <img src="images/delivery_delay_data_splitting" width="60%">
+</p>
 
 **Hyper parameter tuning:**  
 Initially, early stopping was applied to identify the optimal number of boosting rounds and mitigate overfitting. Second, a randomized search was conducted to optimize key hyperparameters of the XGBoost model, further improving predictive performance and generalization.
