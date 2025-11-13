@@ -4,6 +4,21 @@
   <img src="images/delivery_delay_header.png" width="80%">
 </p>
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Working Datasets](#working-datasets)
+3. [Feature Engineering](#feature-engineering)
+4. [Modeling Approach](#modeling-approach)
+5. [Model Evaluation](#model-evaluation)
+6. [Feature Importance & Insights](#feature-importance--insights)
+   - [Temporal Patterns](#temporal-patterns)
+   - [Geographic Distance](#geographic-distance)
+   - [Customer Recency](#customer-recency)
+7. [Conclusion and Insights](#conclusion-and-insights)
+   - [Actionable Recommendations](#actionable-recommendations)
+   - [Perspective to Improve the Model](#perspective-to-improve-the-model)
+
 ## Project Overview
 
 Delivery delays are a major driver of customer dissatisfaction, often resulting in negative reviews and, ultimately, churn. In a [previous project](https://github.com/Camille-Le-Roy/E-Commerce-Data-Processing-Pipeline) analyzing customer behavior using the Olist e-commerce dataset, I identified logistics issues impacting the customer experience. Here, I address those issues by building a machine learning model, powered by XGBoost, to predict delivery delays and help logistics teams reducing late shipments.
