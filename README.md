@@ -1,6 +1,8 @@
 # Predicting Delivery Delays with Machine Learning
 
-![Delivery Delay Header](/images/delivery_delay_header.png)
+<p align="center">
+  <img src="images/delivery_delay_header.png" width="80%">
+</p>
 
 ## Project Overview
 
