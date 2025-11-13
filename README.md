@@ -89,7 +89,7 @@ Temporal dynamics played a significant role in predicting delivery delays. In Ol
 ### Geographic Distance
 
 <p align="center">
-  <img src="images/delivery_delay_distance_effect.png" width="70%">
+  <img src="images/delivery_delay_distance_effect.png" width="60%">
 </p>
 
 Delivery delays tend to increase with distance. While this is an intuitive pattern, it highlights an issue in the delivery date estimation process, which appears to insufficiently account for distance.
