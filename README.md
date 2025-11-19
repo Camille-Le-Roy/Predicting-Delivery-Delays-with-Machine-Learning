@@ -142,3 +142,11 @@ Delays increase during certain months (March, November) and days (Fridays). The 
 The current model relies entirely on past order records, without incorporating real-time contextual factors such as traffic conditions or weather events that can heavily influence delivery times. A more accurate prediction of delay could be achieved by incorporating those factors in further analyses.
 
 Enriching the model with **geolocation features** and **external data sources** such as regional infrastructure or weather patterns would further strengthen its predictive power.
+
+
+
+## Code
+
+<p style="color:#D0D0D0; font-size:0.9em; margin-top:1em;">
+The analysis is implemented in Python and available in <a href="https://github.com/Camille-Le-Roy/Predicting-Delivery-Delays-with-Machine-Learning/blob/main/Olist_predicting_delivery_delay.ipynb" target="_blank" style="color:#D0D0D0; text-decoration:underline;">this Jupyter Notebook</a>.
+</p>
